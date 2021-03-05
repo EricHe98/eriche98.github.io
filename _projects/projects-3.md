@@ -4,4 +4,4 @@ excerpt: "Using probabilistic graphical methods for efficient simulation of the 
 collection: projects
 ---
 
-Check out the paper [here](../files/markov_state_models_for_protein_folding.pdf). 
+Check out the paper [here](../../files/markov_state_models_for_protein_folding.pdf). 
