@@ -1,7 +1,10 @@
-# main links links
+# main links
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "Hotel Ranking"
+    url: /ranking/
         
-  - title: "Blog Posts"
-    url: /blog/
+  - title: "Protein Folding"
+    url: /protein/
+
+  - title: "Other Projects"
+    url: /projects/

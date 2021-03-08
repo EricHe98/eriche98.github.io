@@ -1,0 +1,20 @@
+---
+layout: archive
+title: "Hotel Ranking"
+permalink: /ranking/
+author_profile: true
+---
+
+{% include base_path %}
+
+Ranking is my single favorite problem in data science. 
+
+In terms of theory, the core ranking problem is very hard: given a set of items, return the best possible permutation of those items which minimizes some penalty function. Since there are `n!` permutations for a set of `n` items, nobody wants to work on this "core" ranking problem, and instead they make up simplifying assumptions which transform it into something more tractable. Depending on your simplifications, you can reduce ranking into something "simple" like classification, or something "hard" like collaborative filtering or pairwise classification with a listwise loss term. In my opinion, learning different ways to tackle the ranking problem is instructive to learning modeling in general. And the ranking research space moves fast - every year there is something new!
+
+In terms of engineering, ranking is an extremely high-throughput problem with extremely tight latency requirements. Most models predict on one input, but ranking requires predictions on a set of inputs. Depending on your setup, the dataset to predict on can be very large; for each item you could be pulling a lot of relevant information to inform your ranking decision. And no matter what the computational requirements are, you have to do it fast - the user is waiting for you to present a recommendation! 
+
+I've spent a lot of time working on sub-problems in ranking at Rocket and at NYU, and I'm happy to share some presentable work here.
+
+{% for post in site.ranking %}
+  {% include archive-single.html %}
+{% endfor %}
