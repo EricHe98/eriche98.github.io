@@ -190,6 +190,12 @@ collections:
   projects:
     output: true 
     permalink: /:collection/:path/
+  ranking:
+    output: true 
+    permalink: /:collection/:path/
+  protein:
+    output: true 
+    permalink: /:collection/:path/
 
 
 # Defaults
