@@ -1,6 +1,6 @@
 ---
 title: "Learning to Rank Hotels"
-excerpt: "Benchmark deep learning methods for recommender systems"
+excerpt: "[Benchmark of deep learning methods](../../files/learning_to_rank_hotels.pdf) for recommender systems on the Rocket hotel ranking dataset"
 collection: ranking
 ---
 

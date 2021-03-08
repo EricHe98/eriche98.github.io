@@ -1,6 +1,6 @@
 ---
 title: "Ranking at Rocket"
-excerpt: "Slide deck of the first ranking model deployed at Rocketmiles"
+excerpt: "[Slide deck](../../files/rocket_ranking_slides.pdf) of the first ranking model deployed at Rocketmiles"
 collection: ranking
 ---
 
