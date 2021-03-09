@@ -271,6 +271,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _protein
+  - scope:
+      path: ""
+      type: protein 
+    values:
+      layout: talk
+      author_profile: true 
+      share: true 
+      comment: true
 
 # Sass/SCSS
 sass:
