@@ -1,10 +1,12 @@
 ---
-title: "Rocketmiles"
+title: "Random Rocket stuff"
 excerpt: "High-level summaries of my work done at an online travel agency"
 collection: projects
 ---
 
-## Rocketmiles Search Result Ranking Model (August 2018 - Present)
+I've worked on a bunch of stuff in my time at Rocket and it's really easy for me to forget it all. This document is just some notes for me to keep track of what I've done, although (as I've said elsewhere) the notes are easier for me to understand when I force myself to write it in a way that anyone can read. 
+
+## Rocketmiles Search Result Ranking Model (August 2018 - May 2019)
 Due to data volume and problem complexity, search result ranking is one of the most ambitious machine learning projects an e-commerce company can take on. However, good search result rankings are critical to the customer experience, and upgraded algorithms have been shown at companies such as [Airbnb](https://arxiv.org/abs/1810.09591) to create tremendous lift in customer conversion rates. I prototyped a gradient boosting tree model for ranking called **LambdaMART**, which required me to come up with custom data sampling strategies to serve the use case. To productionize the model, I used big data infrastructure and a modern realtime model deployment stack built on Amazon Web Services. We are currently working on deploying the search result model for live A/B testing.
 
 ### Concepts
